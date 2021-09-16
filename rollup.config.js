@@ -6,13 +6,13 @@ export default {
   input: "dist/index.js",
   output: [
     {
-      file: "dist/index.mjs",
+      file: "dist/index.js",
       sourcemap: true,
-      format: "esm",
+      format: "cjs",
     },
     {
-      file: "dist/index.min.mjs",
-      format: "esm",
+      file: "dist/index.min.js",
+      format: "cjs",
       sourcemap: true,
       plugins: [terser()],
     },
