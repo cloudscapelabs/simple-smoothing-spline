@@ -1,9 +1,9 @@
 {
-  "name": "@umn-latis/simple-smoothing-spline",
+  "name": "@cloudscapelabs/simple-smoothing-spline",
   "description": "Fit a smoothing spline to collection of data points",
   "version": "0.4.3",
   "license": "MIT",
-  "repository": "UMN-LATIS/simple-smoothing-spline",
+  "repository": "cloudscapelabs/simple-smoothing-spline",
   "main": "dist/index.js",
   "module": "dist/index.min.js",
   "unpkg": "dist/index.umd.min.js",
@@ -75,6 +75,7 @@
     "ml-matrix": "^6.8.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   }
 }
