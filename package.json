@@ -1,7 +1,7 @@
 {
   "name": "@cloudscapelabs/simple-smoothing-spline",
   "description": "Fit a smoothing spline to collection of data points",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "license": "MIT",
   "repository": "cloudscapelabs/simple-smoothing-spline",
   "main": "dist/index.js",
